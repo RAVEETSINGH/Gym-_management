@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color:whitesmoke;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    background: #2cbdb9;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border-radius:10px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Login Form */
+.login-section {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: #000000;
+    padding: 2rem;
+    box-shadow: -5px -5px 15px rgba(195, 188, 188, 0.611),5px 5px 15px rgba(195, 188, 188, 0.611);
+    border-radius:20px;
+    color: whitesmoke;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section form label {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.login-section form input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+/* Footer */
+/* Footer Styling */
+.fooot {
+    background-color: #222;
+    color:whitesmoke;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    height:175px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fooot .footer-content {
+    max-width: 900px; /* Limit the width */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fooot h2 {
+    margin:0.1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fooot p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem; /* Space between icons */
+    justify-content: center;
+    flex-wrap: wrap; /* Adjust layout for smaller screens */
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* LinkedIn */
+.social-icons a.linkedin {
+    color: #0077b5;
+    border: 2px solid #0077b5;
+}
+.social-icons a.linkedin:hover {
+    background-color: #0077b5;
+    color: white;
+    box-shadow: 0 0 10px #0077b5;
+}
+
+/* GitHub */
+.social-icons a.github {
+    color: #181717;
+    border: 2px solid #181717;
+}
+.social-icons a.github:hover {
+    background-color: #181717;
+    color: white;
+    box-shadow: 0 0 10px #181717;
+}
+
+/* WhatsApp */
+.social-icons a.whatsapp {
+    color: #25D366;
+    border: 2px solid #25D366;
+}
+.social-icons a.whatsapp:hover {
+    background-color: #25D366;
+    color: white;
+    box-shadow: 0 0 10px #25D366;
+}
+
+/* Instagram */
+.social-icons a.instagram {
+    color: #fff;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    border: 2px solid transparent;
+}
+.social-icons a.instagram:hover {
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.6);
+}
+
+/* Email */
+.social-icons a.email {
+    color: #0072c6;
+    border: 2px solid #0072c6;
+}
+.social-icons a.email:hover {
+    background-color: #0072c6;
+    color: white;
+    box-shadow: 0 0 10px #0072c6;
+}
+
+/* Call */
+.social-icons a.call {
+    color: #34b7f1;
+    border: 2px solid #34b7f1;
+}
+.social-icons a.call:hover {
+    background-color: #34b7f1;
+    color: white;
+    box-shadow: 0 0 10px #34b7f1;
+}
+
+/* Universal Hover Effect */
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-icons a {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .fooot h2 {
+        font-size: 1.2rem;
+    }
+
+    .fooot p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Admin Content Styling */
+#admin-content {
+    color: whitesmoke; /* Changes font color to whitesmoke */
+    padding: 1rem;
+    font-size: 1rem; /* Adjusts font size for readability */
+}
+#admin-dashboard{
+    color: whitesmoke;
+}
