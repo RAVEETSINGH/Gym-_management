@@ -4,6 +4,7 @@ A sleek and interactive Gym Management System designed using **HTML**, **CSS**, 
 
 ---
 
+
 ## 📋 Features
 
 ### Admin Features
@@ -15,10 +16,8 @@ A sleek and interactive Gym Management System designed using **HTML**, **CSS**, 
 - Secure login functionality for gym members.
 - Personalized member dashboard for improved user experience.
 
-### Universal Features
-- Fully responsive design for optimal use across devices.
-- Interactive hover effects and animations.
-- Modern footer with quick access to social media and contact options.
+Username: admin
+Password: admin123
 
 ---
 
@@ -30,5 +29,15 @@ A sleek and interactive Gym Management System designed using **HTML**, **CSS**, 
 
 ---
 
-## 📁 Project Structure
+## 🌟 Screenshots
+
+### Login Page
+![Login Page](ss.png)
+
+### Admin Dashboard
+![Admin Dashboard](ss1.png)
+
+### Members
+![Members](ss2.png)
+
 
